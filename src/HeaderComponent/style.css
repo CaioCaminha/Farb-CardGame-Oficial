@@ -1,21 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+
+
 header{
     display: inline-block;
     width: 100%;
-    height: 130px;
-    background-image: linear-gradient(to right, skyblue, DarkBlue);
+    height: 110px;
+    background-image: linear-gradient(to right,  DarkBlue, skyblue);
 }
+
+nav{
+    position: absolute;
+    margin-top: 80px;
+    right: 0px;
+}
+
 .menu{
     list-style:none;
-    border:1px solid #c0c0c0;
     float:left;
     }
 
     .menu li{
         position:relative;
         float:left;
-        border-right:1px solid #c0c0c0;
+        border-right:2px solid black;
+        font-size: 19px;
+        font-family: 'Dela Gothic One', cursive;
         }
-        .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+        .menu li a{color:white; text-decoration:none; padding:5px 10px; display:block;}
 
 .menu li a:hover{
     background:#333;
@@ -29,14 +42,16 @@ header{
     position:absolute;
     top:25px;
     left:0;
-    background-color:#fff;
+    background-color:black;
     display:none;
     }
 
-    .menu li:hover ul, .menu li.over ul{display:block;}
+    .menu li:hover ul, .menu li.over ul{
+        display:block;
+    }
 
     .menu li ul li{
-        border:1px solid #c0c0c0;
+        border:1px solid black;
         display:block;
         width:150px;
     }
@@ -44,7 +59,7 @@ header{
 img{
     position: absolute;
     top: 0px;
-    right: 0px;
-    width: 150px;
+    left: 100px;
+    width: 210px;
     height: 120px;
 }

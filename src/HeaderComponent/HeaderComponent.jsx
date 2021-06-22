@@ -8,17 +8,25 @@ function HeaderComponent(){
             <img src={FarbeLogo} />
             <nav>
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-	  		        <li><a href="#">O que fazemos?</a>
+                    <li><a href="#">REGRAS</a></li>
+                    <li><a href="#">HISTÓRIAS</a>
                         <ul>
-                            <li><a href="#">Web Design</a></li>
-                            <li><a href="#">SEO</a></li>
-                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Personagens</a></li>
+                            <li><a href="#">Poderes</a></li>
+                        </ul>
+                    </li>
+	  		        <li><a href="#">LISTAGEM</a>
+                        <ul>
+                            <li><a href="#">VERMELHA</a></li>
+                            <li><a href="#">LARANJA</a></li>
+                            <li><a href="#">AMARELA</a></li>
+                            <li><a href="#">VERDE</a></li>
+                            <li><a href="#">AZUIS</a></li>
+                            <li><a href="#">ÍNDIGO</a></li>
+                            <li><a href="#">ROXA</a></li>
                         </ul>
 			        </li>
-                    <li><a href="#">Links</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">CURIOSIDADES</a></li>
                 </ul>
             </nav>
         </header>
